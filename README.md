@@ -1,6 +1,6 @@
 # TITRE : GRAPHIO
 ## GROUPE : 
-  -BELLAJ Zakariae
+  -BELLAJ Zakariae  
   -BOUZIDI IDRISSI Mohammed
   
 # Lien vers [Vercel](https://graphio.vercel.app/)
