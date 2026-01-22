@@ -39,3 +39,26 @@ body {
 .btn-secondary {
   @apply bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 px-4 py-2 rounded-lg font-medium transition-colors;
 }
+/* Add this to the bottom of client/src/index.css */
+
+.d3-tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 12px;
+  background: rgba(15, 23, 42, 0.9); /* Dark Slate */
+  color: white;
+  border-radius: 6px;
+  pointer-events: none; /* Let mouse events pass through */
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+  max-width: 250px;
+}
+
+.d3-tooltip strong {
+  display: block;
+  margin-bottom: 2px;
+  color: #60a5fa; /* Blue-400 */
+}
